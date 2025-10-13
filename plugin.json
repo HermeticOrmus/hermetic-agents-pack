@@ -1,0 +1,120 @@
+{
+  "name": "hermetic-agents-pack",
+  "version": "1.0.0",
+  "description": "Complete AI agent team for rapid application development. 39 specialized agents covering engineering, product, marketing, design, testing, project management, and studio operations. Built for the Hermetic 6-day development cycle.",
+  "author": {
+    "name": "Ormus",
+    "email": "ormus@hermetic.dev",
+    "url": "https://github.com/ormus"
+  },
+  "license": "MIT",
+  "keywords": [
+    "agents",
+    "development",
+    "hermetic",
+    "rapid-development",
+    "specialized-agents",
+    "productivity",
+    "app-development",
+    "engineering",
+    "design",
+    "marketing",
+    "testing",
+    "project-management",
+    "6-day-cycle",
+    "indie-development"
+  ],
+  "homepage": "https://github.com/ormus/hermetic-agents-pack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ormus/hermetic-agents-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ormus/hermetic-agents-pack/issues"
+  },
+  "main": "plugin.json",
+  "files": [
+    "agents/**/*.md",
+    "examples/**",
+    "docs/**",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "CONTRIBUTING.md"
+  ],
+  "claude": {
+    "minVersion": "1.0.0",
+    "maxVersion": "2.0.0"
+  },
+  "dependencies": {},
+  "categories": [
+    "agents",
+    "development",
+    "productivity",
+    "engineering",
+    "design",
+    "marketing"
+  ],
+  "tags": [
+    "hermetic-cycle",
+    "rapid-prototyping",
+    "app-development",
+    "specialized-agents",
+    "6-day-development",
+    "indie-development",
+    "full-stack",
+    "complete-team",
+    "auto-delegation"
+  ],
+  "compatibility": {
+    "platforms": ["win32", "darwin", "linux"],
+    "mcpServers": []
+  },
+  "configuration": {
+    "defaults": {
+      "autoLoadAgents": true,
+      "agentSelectionMode": "automatic",
+      "verbosity": "normal"
+    },
+    "schema": {
+      "type": "object",
+      "properties": {
+        "autoLoadAgents": {
+          "type": "boolean",
+          "description": "Automatically load all agents when plugin is activated",
+          "default": true
+        },
+        "agentSelectionMode": {
+          "type": "string",
+          "enum": ["automatic", "manual", "hybrid"],
+          "description": "How agents are selected for tasks",
+          "default": "automatic"
+        },
+        "verbosity": {
+          "type": "string",
+          "enum": ["minimal", "normal", "detailed"],
+          "description": "Level of detail in agent responses",
+          "default": "normal"
+        }
+      }
+    }
+  },
+  "activation": {
+    "onInstall": "echo '✅ Hermetic Agents Pack installed! 39 specialized agents are now available. Claude will automatically delegate to the right agent for your tasks.'",
+    "onActivate": "echo '✅ Hermetic Agents Pack activated! Full agent team ready for rapid development.'",
+    "onDeactivate": "echo '⏸️ Hermetic Agents Pack deactivated.'"
+  },
+  "stats": {
+    "totalAgents": 39,
+    "categories": {
+      "engineering": 7,
+      "product": 3,
+      "marketing": 7,
+      "design": 5,
+      "testing": 5,
+      "projectManagement": 3,
+      "studioOperations": 5,
+      "bonus": 4
+    }
+  }
+}
