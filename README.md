@@ -23,6 +23,14 @@ A production-ready collection of 39 specialized AI agents that work together lik
 
 ---
 
+## ⭐ About the Names
+
+Many agents in this pack draw their names from celestial bodies - **Pallas**, **Ceres**, **Iris**, **Neptune**, **Uranus** - each embodying the archetypal wisdom of their namesake. These celestial agents integrate Hermetic mythology and sacred symbolism into their core, representing different aspects of development mastery. Others use functional names (Backend Architect, Frontend Developer) for immediate clarity. Both naming systems serve the same purpose: specialized excellence in rapid development.
+
+*"As above, so below" - The heavens teach us patterns we apply to code.*
+
+---
+
 ## 🎯 The Complete Team
 
 ### 🛠️ Engineering Agents (7)
